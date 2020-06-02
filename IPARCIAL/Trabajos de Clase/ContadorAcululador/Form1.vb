@@ -20,4 +20,8 @@
         txtTotalPagar.Clear()
         txtTotalIndividual.Clear()
     End Sub
+
+    Private Sub AcumuladorContador_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
