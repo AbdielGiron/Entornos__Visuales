@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A0BABE1-5D28-47EA-A747-5BBC1EFD1B70}</ProjectGuid>
+    <ProjectGuid>{6E4B94F0-2DA3-442E-A7B0-7A9CC670E73D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>proyecto_Pizzeria.My.MyApplication</StartupObject>
-    <RootNamespace>proyecto_Pizzeria</RootNamespace>
-    <AssemblyName>proyecto Pizzeria</AssemblyName>
+    <StartupObject>FuncionesString.My.MyApplication</StartupObject>
+    <RootNamespace>FuncionesString</RootNamespace>
+    <AssemblyName>FuncionesString</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>proyecto Pizzeria.xml</DocumentationFile>
+    <DocumentationFile>FuncionesString.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>proyecto Pizzeria.xml</DocumentationFile>
+    <DocumentationFile>FuncionesString.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -80,24 +80,6 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form3.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form4.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -118,15 +100,6 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -145,42 +118,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\71SNDZXPLHL._AC_SX355_.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\restaurant-waiter-app-template-for-android-2594_imgs_2594.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\WhatsApp Image 2020-06-02 at 6.53.53 PM.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\WhatsApp Image 2020-06-02 at 6.53.53 PM1.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\WhatsApp Image 2020-06-02 at 6.53.53 PM - copia.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\WhatsApp Image 2020-06-02 at 6.53.53 PM2.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Captura de pantalla %2810%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Captura de pantalla %2811%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Captura de pantalla %2813%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\rebanada-pizza-deliciosa-ingredientes-fondo-madera-texturizado_23-2147926094.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Captura de pantalla %2810%291.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pngtree-delicious-pizza-background-material-image_140751.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
