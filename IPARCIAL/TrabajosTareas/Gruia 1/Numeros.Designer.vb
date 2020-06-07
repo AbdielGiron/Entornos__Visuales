@@ -289,6 +289,7 @@ Partial Class Numeros
         Me.Controls.Add(Me.btnIngresar)
         Me.ForeColor = System.Drawing.SystemColors.InactiveCaption
         Me.Name = "Numeros"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Numeros"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

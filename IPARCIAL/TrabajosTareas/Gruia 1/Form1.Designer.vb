@@ -32,6 +32,7 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.Location = New System.Drawing.Point(217, 304)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(199, 150)
@@ -42,6 +43,7 @@ Partial Class Form1
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(12, 304)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(199, 150)
@@ -52,6 +54,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(113, 152)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(199, 150)
@@ -62,6 +65,7 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(217, 1)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(199, 150)
@@ -72,6 +76,7 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(12, 1)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(199, 150)
@@ -91,6 +96,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 

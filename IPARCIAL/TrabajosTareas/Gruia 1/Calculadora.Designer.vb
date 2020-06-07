@@ -428,6 +428,7 @@ Partial Class Calculadora
         Me.Controls.Add(Me.btn1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Calculadora"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Calculadora"
         Me.ResumeLayout(False)
         Me.PerformLayout()
