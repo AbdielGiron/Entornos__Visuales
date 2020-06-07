@@ -83,6 +83,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property fondo_pizarra_matematicas_realista_23_2148163817() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fondo-pizarra-matematicas-realista_23-2148163817", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property moderno_fondo_bodegon_moderno_tema_fondo_1385_1615() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("moderno-fondo-bodegon-moderno-tema-fondo_1385-1615", resourceCulture)

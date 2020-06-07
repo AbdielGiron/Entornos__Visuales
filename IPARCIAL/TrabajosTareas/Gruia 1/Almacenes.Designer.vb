@@ -226,7 +226,7 @@ Partial Class Almacenes
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Gruia_1.My.Resources.Resources.moderno_fondo_bodegon_moderno_tema_fondo_1385_1615
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(841, 450)
+        Me.ClientSize = New System.Drawing.Size(824, 292)
         Me.Controls.Add(Me.btnNuevo)
         Me.Controls.Add(Me.btnGuardar)
         Me.Controls.Add(Me.Label3)
