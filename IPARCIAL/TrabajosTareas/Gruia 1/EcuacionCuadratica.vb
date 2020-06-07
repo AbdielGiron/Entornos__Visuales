@@ -25,4 +25,21 @@
 
 
     End Sub
+
+    Private Sub brnBorrar_Click(sender As Object, e As EventArgs) Handles brnBorrar.Click
+        txtA.Clear()
+        txtB.Clear()
+        txtC.Clear()
+        txtX1.Clear()
+        txtX2.Clear()
+    End Sub
+
+    Private Sub btnVolver_Click(sender As Object, e As EventArgs) Handles btnVolver.Click
+        Me.Hide()
+        Form1.Show()
+    End Sub
+
+    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
+        End
+    End Sub
 End Class

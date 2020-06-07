@@ -39,6 +39,8 @@ Partial Class Almacenes
         Me.Label3 = New System.Windows.Forms.Label()
         Me.btnGuardar = New System.Windows.Forms.Button()
         Me.btnNuevo = New System.Windows.Forms.Button()
+        Me.btnSalir = New System.Windows.Forms.Button()
+        Me.btnVolver = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'CheckBox1
@@ -220,6 +222,26 @@ Partial Class Almacenes
         Me.btnNuevo.Text = "Nuevo"
         Me.btnNuevo.UseVisualStyleBackColor = True
         '
+        'btnSalir
+        '
+        Me.btnSalir.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSalir.Location = New System.Drawing.Point(748, 263)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(75, 27)
+        Me.btnSalir.TabIndex = 18
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.UseVisualStyleBackColor = True
+        '
+        'btnVolver
+        '
+        Me.btnVolver.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnVolver.Location = New System.Drawing.Point(671, 263)
+        Me.btnVolver.Name = "btnVolver"
+        Me.btnVolver.Size = New System.Drawing.Size(75, 27)
+        Me.btnVolver.TabIndex = 19
+        Me.btnVolver.Text = "Volver"
+        Me.btnVolver.UseVisualStyleBackColor = True
+        '
         'Almacenes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -227,6 +249,8 @@ Partial Class Almacenes
         Me.BackgroundImage = Global.Gruia_1.My.Resources.Resources.moderno_fondo_bodegon_moderno_tema_fondo_1385_1615
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(824, 292)
+        Me.Controls.Add(Me.btnVolver)
+        Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.btnNuevo)
         Me.Controls.Add(Me.btnGuardar)
         Me.Controls.Add(Me.Label3)
@@ -268,4 +292,6 @@ Partial Class Almacenes
     Friend WithEvents Label3 As Label
     Friend WithEvents btnGuardar As Button
     Friend WithEvents btnNuevo As Button
+    Friend WithEvents btnSalir As Button
+    Friend WithEvents btnVolver As Button
 End Class

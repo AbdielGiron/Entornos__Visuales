@@ -38,6 +38,7 @@ Partial Class EcuacionCuadratica
         Me.btnVolver = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.btnSalir = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -200,7 +201,7 @@ Partial Class EcuacionCuadratica
         Me.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnVolver.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnVolver.ForeColor = System.Drawing.Color.White
-        Me.btnVolver.Location = New System.Drawing.Point(678, 435)
+        Me.btnVolver.Location = New System.Drawing.Point(667, 435)
         Me.btnVolver.Name = "btnVolver"
         Me.btnVolver.Size = New System.Drawing.Size(130, 46)
         Me.btnVolver.TabIndex = 13
@@ -227,6 +228,21 @@ Partial Class EcuacionCuadratica
         Me.Label7.TabIndex = 15
         Me.Label7.Text = "a <> 0"
         '
+        'btnSalir
+        '
+        Me.btnSalir.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnSalir.FlatAppearance.BorderSize = 0
+        Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSalir.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSalir.ForeColor = System.Drawing.Color.White
+        Me.btnSalir.Location = New System.Drawing.Point(814, 435)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(130, 46)
+        Me.btnSalir.TabIndex = 16
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.UseVisualStyleBackColor = False
+        '
         'EcuacionCuadratica
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -235,6 +251,7 @@ Partial Class EcuacionCuadratica
         Me.BackgroundImage = Global.Gruia_1.My.Resources.Resources._53d17d59af28ba02329691a1a332d328
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(959, 512)
+        Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.btnVolver)
@@ -276,4 +293,5 @@ Partial Class EcuacionCuadratica
     Friend WithEvents btnVolver As Button
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
+    Friend WithEvents btnSalir As Button
 End Class

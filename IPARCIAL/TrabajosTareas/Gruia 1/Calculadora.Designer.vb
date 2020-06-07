@@ -45,6 +45,7 @@ Partial Class Calculadora
         Me.txtPantalla = New System.Windows.Forms.TextBox()
         Me.txtOperacion = New System.Windows.Forms.TextBox()
         Me.btnVolver = New System.Windows.Forms.Button()
+        Me.btnSalir = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btn1
@@ -373,19 +374,35 @@ Partial Class Calculadora
         Me.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnVolver.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnVolver.ForeColor = System.Drawing.Color.Black
-        Me.btnVolver.Location = New System.Drawing.Point(448, 241)
+        Me.btnVolver.Location = New System.Drawing.Point(409, 244)
         Me.btnVolver.Name = "btnVolver"
         Me.btnVolver.Size = New System.Drawing.Size(64, 32)
         Me.btnVolver.TabIndex = 22
         Me.btnVolver.Text = "Volver"
         Me.btnVolver.UseVisualStyleBackColor = False
         '
+        'btnSalir
+        '
+        Me.btnSalir.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.btnSalir.FlatAppearance.BorderSize = 0
+        Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSalir.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSalir.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.btnSalir.Location = New System.Drawing.Point(479, 244)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(64, 32)
+        Me.btnSalir.TabIndex = 23
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.UseVisualStyleBackColor = False
+        '
         'Calculadora
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.ClientSize = New System.Drawing.Size(518, 277)
+        Me.ClientSize = New System.Drawing.Size(546, 277)
+        Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.btnVolver)
         Me.Controls.Add(Me.txtOperacion)
         Me.Controls.Add(Me.txtPantalla)
@@ -440,4 +457,5 @@ Partial Class Calculadora
     Friend WithEvents txtPantalla As TextBox
     Friend WithEvents txtOperacion As TextBox
     Friend WithEvents btnVolver As Button
+    Friend WithEvents btnSalir As Button
 End Class
