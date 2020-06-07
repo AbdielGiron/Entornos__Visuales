@@ -120,6 +120,12 @@
     <Compile Include="Numeros.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SueldoSAR.Designer.vb">
+      <DependentUpon>SueldoSAR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SueldoSAR.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Almacenes.resx">
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Numeros.resx">
       <DependentUpon>Numeros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SueldoSAR.resx">
+      <DependentUpon>SueldoSAR.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -167,6 +176,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fondo-pizarra-matematicas-realista_23-2148163817.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salario-monedas-fondo-blanco-dreamstime.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
